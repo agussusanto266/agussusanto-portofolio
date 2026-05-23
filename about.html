@@ -9,14 +9,15 @@
     <meta property="og:description" content="QA Automation Engineer with expertise in Playwright, Katalon Studio, Cypress, API testing, and CI/CD integration.">
     <meta property="og:type" content="website">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="About | Agus Susanto">
-    <meta name="twitter:description" content="QA Automation Engineer with expertise in Playwright, Katalon Studio, Cypress, API testing, and CI/CD integration.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <nav class="navbar" aria-label="Main navigation">
-            <a href="index.html" class="logo" aria-label="Agus Susanto — Home">Agus Susanto</a>
+            <a href="index.html" class="logo">agus<span class="logo-dot">.</span>qa</a>
             <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
                 <span></span><span></span><span></span>
             </button>
@@ -30,39 +31,49 @@
     </header>
 
     <main class="content">
-        <h1>About Me</h1>
-        <p>I am a Software Quality Assurance Engineer with hands-on experience in web, mobile, and API automation testing. I focus on building reliable test architectures that catch bugs early and integrate seamlessly into CI/CD pipelines.</p>
+        <div class="about-header animate-on-scroll">
+            <div class="about-avatar" aria-hidden="true">AS</div>
+            <div class="about-title">
+                <h1>Agus Susanto</h1>
+                <p>// QA Automation Engineer</p>
+            </div>
+        </div>
+
+        <p>Software Quality Assurance Engineer with hands-on experience in web, mobile, and API automation testing. I focus on building reliable test architectures that catch bugs early and integrate seamlessly into CI/CD pipelines.</p>
         <p>My goal is to deliver high-quality software by ensuring every feature is thoroughly validated — from UI interactions to backend API contracts.</p>
 
-        <h2>Technical Skills</h2>
+        <div class="section-label animate-on-scroll">Technical Skills</div>
 
-        <div class="skill">
-            <div class="skill-name">Katalon Studio</div>
-            <div class="progress"><div class="progress-bar" style="width: 90%"></div></div>
-        </div>
-        <div class="skill">
-            <div class="skill-name">Playwright</div>
-            <div class="progress"><div class="progress-bar" style="width: 85%"></div></div>
-        </div>
-        <div class="skill">
-            <div class="skill-name">Cypress</div>
-            <div class="progress"><div class="progress-bar" style="width: 75%"></div></div>
-        </div>
-        <div class="skill">
-            <div class="skill-name">API Automation</div>
-            <div class="progress"><div class="progress-bar" style="width: 80%"></div></div>
-        </div>
-        <div class="skill">
-            <div class="skill-name">TypeScript & Groovy</div>
-            <div class="progress"><div class="progress-bar" style="width: 70%"></div></div>
-        </div>
-        <div class="skill">
-            <div class="skill-name">Git & CI/CD</div>
-            <div class="progress"><div class="progress-bar" style="width: 80%"></div></div>
+        <div class="animate-on-scroll">
+            <div class="skill">
+                <div class="skill-name">Katalon Studio <span>90%</span></div>
+                <div class="progress"><div class="progress-bar" style="width: 90%"></div></div>
+            </div>
+            <div class="skill">
+                <div class="skill-name">Playwright <span>85%</span></div>
+                <div class="progress"><div class="progress-bar" style="width: 85%"></div></div>
+            </div>
+            <div class="skill">
+                <div class="skill-name">Cypress <span>75%</span></div>
+                <div class="progress"><div class="progress-bar" style="width: 75%"></div></div>
+            </div>
+            <div class="skill">
+                <div class="skill-name">API Automation <span>80%</span></div>
+                <div class="progress"><div class="progress-bar" style="width: 80%"></div></div>
+            </div>
+            <div class="skill">
+                <div class="skill-name">TypeScript & Groovy <span>70%</span></div>
+                <div class="progress"><div class="progress-bar" style="width: 70%"></div></div>
+            </div>
+            <div class="skill">
+                <div class="skill-name">Git & CI/CD <span>80%</span></div>
+                <div class="progress"><div class="progress-bar" style="width: 80%"></div></div>
+            </div>
         </div>
 
-        <h2>What I Do</h2>
-        <ul>
+        <div class="section-label animate-on-scroll">What I Do</div>
+
+        <ul class="animate-on-scroll">
             <li>Design and implement automated test suites for web, mobile, and API layers</li>
             <li>Integrate test automation into CI/CD pipelines for continuous quality assurance</li>
             <li>Write and maintain BDD-style test cases with clear, readable syntax</li>
@@ -71,7 +82,7 @@
     </main>
 
     <footer>
-        <p>© 2026 Agus Susanto</p>
+        <p>© 2026 Agus Susanto — QA Automation Portfolio</p>
     </footer>
 
     <script src="script.js"></script>

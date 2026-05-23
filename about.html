@@ -4,39 +4,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About | Agus Susanto</title>
+    <meta name="description" content="Learn about Agus Susanto — QA Automation Engineer with expertise in Playwright, Katalon Studio, Cypress, API testing, and CI/CD integration.">
+    <meta property="og:title" content="About | Agus Susanto">
+    <meta property="og:description" content="QA Automation Engineer with expertise in Playwright, Katalon Studio, Cypress, API testing, and CI/CD integration.">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="About | Agus Susanto">
+    <meta name="twitter:description" content="QA Automation Engineer with expertise in Playwright, Katalon Studio, Cypress, API testing, and CI/CD integration.">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <nav class="navbar">
-            <h1 class="logo">Agus Susanto</h1>
+        <nav class="navbar" aria-label="Main navigation">
+            <a href="index.html" class="logo" aria-label="Agus Susanto — Home">Agus Susanto</a>
+            <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
+                <li><a href="about.html" class="active">About</a></li>
                 <li><a href="projects.html">Projects</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <section class="content">
-        <h2>About Me</h2>
-        <p>I am a Software Quality Assurance Engineer with experience in web, mobile, and API automation testing.</p>
-        <p>Skilled in automation frameworks, CI/CD integration, and test architecture design.</p>
+    <main class="content">
+        <h1>About Me</h1>
+        <p>I am a Software Quality Assurance Engineer with hands-on experience in web, mobile, and API automation testing. I focus on building reliable test architectures that catch bugs early and integrate seamlessly into CI/CD pipelines.</p>
+        <p>My goal is to deliver high-quality software by ensuring every feature is thoroughly validated — from UI interactions to backend API contracts.</p>
 
-        <h3>Technical Skills</h3>
+        <h2>Technical Skills</h2>
+
+        <div class="skill">
+            <div class="skill-name">Katalon Studio</div>
+            <div class="progress"><div class="progress-bar" style="width: 90%"></div></div>
+        </div>
+        <div class="skill">
+            <div class="skill-name">Playwright</div>
+            <div class="progress"><div class="progress-bar" style="width: 85%"></div></div>
+        </div>
+        <div class="skill">
+            <div class="skill-name">Cypress</div>
+            <div class="progress"><div class="progress-bar" style="width: 75%"></div></div>
+        </div>
+        <div class="skill">
+            <div class="skill-name">API Automation</div>
+            <div class="progress"><div class="progress-bar" style="width: 80%"></div></div>
+        </div>
+        <div class="skill">
+            <div class="skill-name">TypeScript & Groovy</div>
+            <div class="progress"><div class="progress-bar" style="width: 70%"></div></div>
+        </div>
+        <div class="skill">
+            <div class="skill-name">Git & CI/CD</div>
+            <div class="progress"><div class="progress-bar" style="width: 80%"></div></div>
+        </div>
+
+        <h2>What I Do</h2>
         <ul>
-            <li>Katalon Studio</li>
-            <li>Playwright</li>
-            <li>Cypress</li>
-            <li>API Automation</li>
-            <li>Groovy & TypeScript</li>
-            <li>Git & CI/CD</li>
+            <li>Design and implement automated test suites for web, mobile, and API layers</li>
+            <li>Integrate test automation into CI/CD pipelines for continuous quality assurance</li>
+            <li>Write and maintain BDD-style test cases with clear, readable syntax</li>
+            <li>Perform API contract testing and validate end-to-end user flows</li>
         </ul>
-    </section>
+    </main>
 
     <footer>
         <p>© 2026 Agus Susanto</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>

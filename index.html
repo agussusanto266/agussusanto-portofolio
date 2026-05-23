@@ -4,14 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agus Susanto | QA Automation Engineer</title>
+    <meta name="description" content="Agus Susanto — Software Quality Assurance Engineer specialized in Web, Mobile, and API Automation Testing using Playwright, Katalon Studio, and Cypress.">
+    <meta property="og:title" content="Agus Susanto | QA Automation Engineer">
+    <meta property="og:description" content="Software QA Engineer specialized in Web, Mobile, and API Automation Testing using Playwright, Katalon, and Cypress.">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Agus Susanto | QA Automation Engineer">
+    <meta name="twitter:description" content="Software QA Engineer specialized in Web, Mobile, and API Automation Testing.">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <nav class="navbar">
-            <h1 class="logo">Agus Susanto</h1>
+        <nav class="navbar" aria-label="Main navigation">
+            <a href="index.html" class="logo" aria-label="Agus Susanto — Home">Agus Susanto</a>
+            <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
             <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html" class="active">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="projects.html">Projects</a></li>
                 <li><a href="contact.html">Contact</a></li>
@@ -19,29 +29,33 @@
         </nav>
     </header>
 
-    <section class="hero">
-        <h2>Software Quality Assurance Engineer</h2>
-        <p>Specialized in Web, Mobile, and API Automation Testing</p>
-        <a href="projects.html" class="btn">View My Projects</a>
-    </section>
+    <main>
+        <section class="hero">
+            <h1>Software Quality Assurance Engineer</h1>
+            <p>Specialized in Web, Mobile, and API Automation Testing</p>
+            <a href="projects.html" class="btn">View My Projects</a>
+        </section>
 
-    <section class="highlights">
-        <div class="card">
-            <h3>Automation Testing</h3>
-            <p>Web & Mobile automation using Katalon, Playwright, and modern frameworks.</p>
-        </div>
-        <div class="card">
-            <h3>API Testing</h3>
-            <p>Experience building API automation with structured frameworks.</p>
-        </div>
-        <div class="card">
-            <h3>CI/CD Integration</h3>
-            <p>Automation execution integrated with Git-based pipelines.</p>
-        </div>
-    </section>
+        <section class="highlights" aria-label="Core expertise">
+            <div class="card">
+                <h2>Automation Testing</h2>
+                <p>Web & Mobile automation using Katalon, Playwright, and modern frameworks.</p>
+            </div>
+            <div class="card">
+                <h2>API Testing</h2>
+                <p>Experience building API automation with structured frameworks.</p>
+            </div>
+            <div class="card">
+                <h2>CI/CD Integration</h2>
+                <p>Automation execution integrated with Git-based pipelines.</p>
+            </div>
+        </section>
+    </main>
 
     <footer>
         <p>© 2026 Agus Susanto | QA Automation Portfolio</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>

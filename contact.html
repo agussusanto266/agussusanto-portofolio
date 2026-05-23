@@ -4,30 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact | Agus Susanto</title>
+    <meta name="description" content="Get in touch with Agus Susanto — QA Automation Engineer. Available via email, LinkedIn, and GitHub.">
+    <meta property="og:title" content="Contact | Agus Susanto">
+    <meta property="og:description" content="Get in touch with Agus Susanto — QA Automation Engineer. Available via email, LinkedIn, and GitHub.">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Contact | Agus Susanto">
+    <meta name="twitter:description" content="Get in touch with Agus Susanto — QA Automation Engineer.">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <nav class="navbar">
-            <h1 class="logo">Agus Susanto</h1>
+        <nav class="navbar" aria-label="Main navigation">
+            <a href="index.html" class="logo" aria-label="Agus Susanto — Home">Agus Susanto</a>
+            <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <section class="content">
-        <h2>Contact</h2>
-        <p>Email: agussusanto260895@gmail.com</p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/agus-susanto-5b3307154/" target="_blank">View Profile</a></p>
-        <p>GitHub: <a href="https://github.com/agussusanto266" target="_blank">github.com/agussusanto266</a></p>
-    </section>
+    <main class="content">
+        <h1>Contact</h1>
+        <p>I'm open to new opportunities, collaborations, or just a quick chat about QA and test automation.</p>
+
+        <div class="contact-list">
+            <div class="contact-item">
+                <span class="contact-label">Email</span>
+                <a href="mailto:agussusanto260895@gmail.com">agussusanto260895@gmail.com</a>
+            </div>
+            <div class="contact-item">
+                <span class="contact-label">LinkedIn</span>
+                <a href="https://www.linkedin.com/in/agus-susanto-5b3307154/" target="_blank" rel="noopener noreferrer">linkedin.com/in/agus-susanto-5b3307154</a>
+            </div>
+            <div class="contact-item">
+                <span class="contact-label">GitHub</span>
+                <a href="https://github.com/agussusanto266" target="_blank" rel="noopener noreferrer">github.com/agussusanto266</a>
+            </div>
+        </div>
+    </main>
 
     <footer>
         <p>© 2026 Agus Susanto</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>

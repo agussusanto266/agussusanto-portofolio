@@ -4,46 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects | Agus Susanto</title>
+    <meta name="description" content="QA automation projects by Agus Susanto — including Playwright API and web automation, Katalon Studio web and mobile automation frameworks.">
+    <meta property="og:title" content="Projects | Agus Susanto">
+    <meta property="og:description" content="QA automation projects: Playwright API & web testing, Katalon Studio web & mobile automation.">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Projects | Agus Susanto">
+    <meta name="twitter:description" content="QA automation projects: Playwright API & web testing, Katalon Studio web & mobile automation.">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <nav class="navbar">
-            <h1 class="logo">Agus Susanto</h1>
+        <nav class="navbar" aria-label="Main navigation">
+            <a href="index.html" class="logo" aria-label="Agus Susanto — Home">Agus Susanto</a>
+            <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="projects.html">Projects</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <section class="content">
-        <h2>Projects</h2>
+    <main class="content">
+        <h1>Projects</h1>
 
-        <div class="project-card">
-            <h3>API and Web Automation - Playwright</h3>
-            <p>Automation testing project using Playwright for web and API validation.</p>
-            <a href="https://github.com/agussusanto266/api-and-web-automation-playwright" target="_blank">View Repository</a>
-        </div>
+        <article class="project-card">
+            <h2>API and Web Automation — Playwright</h2>
+            <p>End-to-end automation framework covering both web UI and REST API testing using Playwright with TypeScript. Includes page object model, fixtures, and parallel test execution.</p>
+            <div class="tags">
+                <span class="tag">Playwright</span>
+                <span class="tag">TypeScript</span>
+                <span class="tag">API Testing</span>
+                <span class="tag">Page Object Model</span>
+            </div>
+            <a href="https://github.com/agussusanto266/api-and-web-automation-playwright" target="_blank" rel="noopener noreferrer">View Repository →</a>
+        </article>
 
-        <div class="project-card">
-            <h3>SauceDemo Web Automation - Katalon</h3>
-            <p>Web automation testing framework built with Katalon Studio.</p>
-            <a href="https://github.com/agussusanto266/saucedemo-web-automation-katalon" target="_blank">View Repository</a>
-        </div>
+        <article class="project-card">
+            <h2>SauceDemo Web Automation — Katalon</h2>
+            <p>Comprehensive web automation test suite for the SauceDemo e-commerce platform, built with Katalon Studio using Groovy scripts and a data-driven testing approach.</p>
+            <div class="tags">
+                <span class="tag">Katalon Studio</span>
+                <span class="tag">Groovy</span>
+                <span class="tag">Web Automation</span>
+                <span class="tag">Data-Driven</span>
+            </div>
+            <a href="https://github.com/agussusanto266/saucedemo-web-automation-katalon" target="_blank" rel="noopener noreferrer">View Repository →</a>
+        </article>
 
-        <div class="project-card">
-            <h3>SauceDemo Mobile Automation - Katalon</h3>
-            <p>Mobile automation testing framework for Android application.</p>
-            <a href="https://github.com/agussusanto266/saucedemo-mobile-automation-katalon" target="_blank">View Repository</a>
-        </div>
-
-    </section>
+        <article class="project-card">
+            <h2>SauceDemo Mobile Automation — Katalon</h2>
+            <p>Mobile automation testing framework for the SauceDemo Android application, built with Katalon Studio and Appium. Covers login, cart, and checkout flows.</p>
+            <div class="tags">
+                <span class="tag">Katalon Studio</span>
+                <span class="tag">Appium</span>
+                <span class="tag">Mobile Testing</span>
+                <span class="tag">Android</span>
+            </div>
+            <a href="https://github.com/agussusanto266/saucedemo-mobile-automation-katalon" target="_blank" rel="noopener noreferrer">View Repository →</a>
+        </article>
+    </main>
 
     <footer>
         <p>© 2026 Agus Susanto</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
